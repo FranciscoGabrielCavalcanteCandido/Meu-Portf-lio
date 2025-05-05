@@ -40,6 +40,19 @@ body{
     display: flex;
 }
 
+
+h2.titulo{
+  color: #ffffff;
+  font-size: 28px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2.titulo span{
+  color: indigo;
+}
+
 /*ESTILO GERAL FIMM */
 
 /*ESTILO CABEÇALHO*/
@@ -152,67 +165,33 @@ header nav ul li{
 
   /*FIM TOPO DO SITE*/
 
-  /*ESTILO MEUS PROJETOS*/
+  /*ESTILO ESPECIALIDADES*/
 
-  .projetos .txtprojetos h2{
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
-    line-height: 35px;
-    margin: 35px 0%;
-    gap: 20px;
+  section.especialidades{
+    padding: 40px 4%;
   }
 
-  .projetos-container {
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 40px;
-  }
-  
-  .projeto {
-    background: rgb(24, 0, 41);
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    transition: transform 0.3s;
+  .especialidades .especialidades-box{
+    color: #ffffff;
+    padding: 40px;
+    border: 2px solid white;
   }
 
-  .projeto h3{
-    display: inline-block;
-    margin-top: 10px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  .especialidades .especialidades-box i{
+    font-size: 80px;
+    color: indigo;
+  }
+
+  .especialidades .especialidades-box h3{
+    padding: 20px;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  
-  .projeto:hover {
-    transform: translateY(-5px);
-  }
-  
-  .projeto img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .projeto a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .projeto a:hover {
-    color: #0077cc;
-  }
-  
 
-  /*FIM ESTILO MEUS PROJETOS*/
+  .especialidades .especialidades-box p{
+
+  }
+  /*FIM ESPECIALIDADES*/
 
 
  
